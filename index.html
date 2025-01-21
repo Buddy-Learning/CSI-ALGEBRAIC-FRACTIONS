@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Algebra CSI: Solve the Mystery</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js" async></script>
+</head>
+<body>
+  <div class="header">
+    <img src="https://assets.onecompiler.app/434dtae6m/4366e2s33/images-removebg-preview.png" alt="Jeppe High School Logo" class="logo">
+    <h1>🔍 Algebra CSI: Solve the Mystery</h1>
+  </div>
+
+  <div class="container">
+    <div class="progress-container">
+      <p>Question <span id="current-question">1</span> of <span id="total-questions">3</span></p>
+      <div class="progress-bar">
+        <div id="progress" class="progress-fill"></div>
+      </div>
+    </div>
+
+    <div id="story">
+      <p>You’re a detective tasked with solving a mystery. Your first clue is hidden in this algebraic fraction!</p>
+    </div>
+
+    <div id="question">
+      <p>Simplify the following expression:</p>
+      <p id="math-problem">
+        \[
+        \frac{x+2}{x-3} + \frac{2x-1}{x^2-9}
+        \]
+      </p>
+      <input type="text" id="answer" placeholder="Enter your simplified answer (e.g., (x+2)/(x+3))">
+      <button id="submit">Submit Answer</button>
+    </div>
+
+    <div id="clue"></div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>

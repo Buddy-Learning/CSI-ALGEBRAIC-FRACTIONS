@@ -1,0 +1,84 @@
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #black;
+  margin: 0;
+  padding: 20px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.logo {
+  height: 150px;
+  margin-right: 15px;
+}
+
+h1 {
+  color: #ffcc00;
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  text-align: center;
+}
+
+#story, #question, #clue {
+  margin: 20px 0;
+  padding: 15px;
+  border: 2px solid #ffcc00;
+  border-radius: 10px;
+}
+
+/* Input and Button */
+input {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ffcc00;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #1e1e2f;
+  font-weight: bold;
+}
+
+button:hover {
+  background-color: #f0e68c;
+}
+
+/* Progress Bar */
+.progress-container {
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.progress-bar {
+  width: 100%;
+  background-color: #333;
+  height: 20px;
+  border-radius: 10px;
+  overflow: hidden;
+  margin-top: 5px;
+}
+
+.progress-fill {
+  height: 100%;
+  width: 0%;
+  background-color: #ffcc00;
+  border-radius: 10px;
+  transition: width 0.5s;
+}
+
